@@ -1,6 +1,5 @@
 E:\workspace_github\greatmaps.git\GMap.NET.Core\bin\Debug\GMap.NET.Core.dll
 E:\workspace_github\greatmaps.git\GMap.NET.Core\bin\Debug\GMap.NET.Core.pdb
-E:\workspace_github\greatmaps.git\GMap.NET.Core\obj\Debug\GMap.NET.Core.csprojResolveAssemblyReference.cache
 E:\workspace_github\greatmaps.git\GMap.NET.Core\obj\Debug\GMap.NET.Properties.Resources.resources
 E:\workspace_github\greatmaps.git\GMap.NET.Core\obj\Debug\GMap.NET.Core.csproj.GenerateResource.Cache
 E:\workspace_github\greatmaps.git\GMap.NET.Core\obj\Debug\GMap.NET.Core.dll

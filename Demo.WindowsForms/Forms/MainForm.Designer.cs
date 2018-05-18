@@ -282,13 +282,14 @@
             this.xPanderPanelMain.CustomColors.FlatCaptionGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
             this.xPanderPanelMain.CustomColors.FlatCaptionGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.xPanderPanelMain.CustomColors.InnerBorderColor = System.Drawing.SystemColors.Window;
+            this.xPanderPanelMain.Expand = true;
             this.xPanderPanelMain.ForeColor = System.Drawing.SystemColors.ControlText;
             this.xPanderPanelMain.Image = null;
             this.xPanderPanelMain.IsClosable = false;
             this.xPanderPanelMain.Margin = new System.Windows.Forms.Padding(2);
             this.xPanderPanelMain.Name = "xPanderPanelMain";
             this.xPanderPanelMain.PanelStyle = BSE.Windows.Forms.PanelStyle.Office2007;
-            this.xPanderPanelMain.Size = new System.Drawing.Size(228, 25);
+            this.xPanderPanelMain.Size = new System.Drawing.Size(228, 510);
             this.xPanderPanelMain.TabIndex = 0;
             this.xPanderPanelMain.Text = "map";
             this.xPanderPanelMain.ToolTipTextCloseIcon = null;
@@ -309,7 +310,7 @@
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(226, 0);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(226, 485);
             this.tableLayoutPanel4.TabIndex = 38;
             // 
             // tableLayoutPanel5
@@ -330,7 +331,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 5F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(176, 1);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(176, 483);
             this.tableLayoutPanel5.TabIndex = 30;
             // 
             // groupBox8
@@ -394,7 +395,6 @@
             // 
             this.groupBox7.Controls.Add(this.buttonExportToGpx);
             this.groupBox7.Controls.Add(this.MobileLogTo);
-            this.groupBox7.Controls.Add(this.label3);
             this.groupBox7.Controls.Add(this.button15);
             this.groupBox7.Controls.Add(this.MobileLogFrom);
             this.groupBox7.Controls.Add(this.button14);
@@ -402,6 +402,7 @@
             this.groupBox7.Controls.Add(this.buttonSetStart);
             this.groupBox7.Controls.Add(this.button6);
             this.groupBox7.Controls.Add(this.button3);
+            this.groupBox7.Controls.Add(this.label3);
             this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox7.Location = new System.Drawing.Point(3, 268);
             this.groupBox7.Name = "groupBox7";
@@ -435,7 +436,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 118);
+            this.label3.Location = new System.Drawing.Point(7, 120);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 46;
@@ -748,7 +749,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(44, 1);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(44, 481);
             this.tableLayoutPanel6.TabIndex = 31;
             // 
             // buttonZoomUp
@@ -775,7 +776,7 @@
             this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar1.Size = new System.Drawing.Size(45, 1);
+            this.trackBar1.Size = new System.Drawing.Size(45, 431);
             this.trackBar1.TabIndex = 29;
             this.trackBar1.TickFrequency = 100;
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
@@ -786,7 +787,7 @@
             // 
             this.buttonZoomDown.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonZoomDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonZoomDown.Location = new System.Drawing.Point(0, -24);
+            this.buttonZoomDown.Location = new System.Drawing.Point(0, 456);
             this.buttonZoomDown.Margin = new System.Windows.Forms.Padding(0);
             this.buttonZoomDown.Name = "buttonZoomDown";
             this.buttonZoomDown.Size = new System.Drawing.Size(45, 25);
@@ -820,14 +821,13 @@
             this.xPanderPanelCache.CustomColors.FlatCaptionGradientBegin = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
             this.xPanderPanelCache.CustomColors.FlatCaptionGradientEnd = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
             this.xPanderPanelCache.CustomColors.InnerBorderColor = System.Drawing.SystemColors.Window;
-            this.xPanderPanelCache.Expand = true;
             this.xPanderPanelCache.ForeColor = System.Drawing.SystemColors.ControlText;
             this.xPanderPanelCache.Image = null;
             this.xPanderPanelCache.IsClosable = false;
             this.xPanderPanelCache.Margin = new System.Windows.Forms.Padding(2);
             this.xPanderPanelCache.Name = "xPanderPanelCache";
             this.xPanderPanelCache.PanelStyle = BSE.Windows.Forms.PanelStyle.Office2007;
-            this.xPanderPanelCache.Size = new System.Drawing.Size(228, 510);
+            this.xPanderPanelCache.Size = new System.Drawing.Size(228, 25);
             this.xPanderPanelCache.TabIndex = 1;
             this.xPanderPanelCache.Text = "cache";
             this.xPanderPanelCache.ToolTipTextCloseIcon = null;
@@ -880,7 +880,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 15F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(226, 485);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(226, 0);
             this.tableLayoutPanel1.TabIndex = 41;
             // 
             // textBoxCacheSize
