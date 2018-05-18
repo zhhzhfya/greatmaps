@@ -46,7 +46,6 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.buttonExportToGpx = new System.Windows.Forms.Button();
             this.MobileLogTo = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.MobileLogFrom = new System.Windows.Forms.DateTimePicker();
             this.button14 = new System.Windows.Forms.Button();
@@ -54,6 +53,7 @@
             this.buttonSetStart = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.button16 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
@@ -433,15 +433,6 @@
             this.MobileLogTo.Size = new System.Drawing.Size(110, 21);
             this.MobileLogTo.TabIndex = 47;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 120);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
-            this.label3.TabIndex = 46;
-            this.label3.Text = "Clear:";
-            // 
             // button15
             // 
             this.button15.Location = new System.Drawing.Point(104, 115);
@@ -513,6 +504,15 @@
             this.button3.Text = "Add Route";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 120);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.TabIndex = 46;
+            this.label3.Text = "Clear:";
             // 
             // groupBox5
             // 
