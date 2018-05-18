@@ -201,7 +201,7 @@ namespace Demo.WindowsForms
                // add my city location for demo
                GeoCoderStatusCode status = GeoCoderStatusCode.Unknow;
                {
-                  PointLatLng? pos = GMapProviders.GoogleMap.GetPoint("Lithuania, Vilnius", out status);
+                  PointLatLng? pos = GMapProviders.BingMap.GetPoint("Lithuania, Vilnius", out status);
                   if(pos != null && status == GeoCoderStatusCode.G_GEO_SUCCESS)
                   {
                      currentMarker.Position = pos.Value;
@@ -1363,7 +1363,7 @@ namespace Demo.WindowsForms
       void AddLocationLithuania(string place)
       {
          GeoCoderStatusCode status = GeoCoderStatusCode.Unknow;
-         PointLatLng? pos = GMapProviders.GoogleMap.GetPoint("Lithuania, " + place, out status);
+         PointLatLng? pos = GMapProviders.BingMap.GetPoint("Lithuania, " + place, out status);
          if(pos != null && status == GeoCoderStatusCode.G_GEO_SUCCESS)
          {
             GMarkerGoogle m = new GMarkerGoogle(pos.Value, GMarkerGoogleType.green);
@@ -1668,7 +1668,7 @@ namespace Demo.WindowsForms
             if(item is GMapMarkerRect)
             {
                GeoCoderStatusCode status;
-               var pos = GMapProviders.GoogleMap.GetPlacemark(item.Position, out status);
+               var pos = GMapProviders.BingMap.GetPlacemark(item.Position, out status);
                if(status == GeoCoderStatusCode.G_GEO_SUCCESS && pos != null)
                {
                   GMapMarkerRect v = item as GMapMarkerRect;
@@ -1944,7 +1944,7 @@ namespace Demo.WindowsForms
          if(checkBoxPlacemarkInfo.Checked)
          {
             GeoCoderStatusCode status;
-            var ret = GMapProviders.GoogleMap.GetPlacemark(currentMarker.Position, out status);
+            var ret = GMapProviders.BingMap.GetPlacemark(currentMarker.Position, out status);
             if(status == GeoCoderStatusCode.G_GEO_SUCCESS && ret != null)
             {
                p = ret;
